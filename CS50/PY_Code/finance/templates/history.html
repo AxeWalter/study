@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <div>
+        <table class = "table">
+            <thead>
+                <tr>
+                    <th scope = "col">#</th>
+                    <th scope = "col">Symbol</th>
+                    <th scope = "col">Buy/Sell</th>
+                    <th scope = "col">Price</th>
+                    <th scope = "col">Number of Shares</th>
+                    <th scope = "col">Day</th>
+                    <th scope = "col">Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                {%for i in range(symbol|length)%}
+                <tr>
+                    <td>{{symbol[i]['symbol']}}</td>
+                    <td>{{symbol[i]['transaction_type']}}</td>
+                    <td>{{symbol[i]['price'] | usd}}</td>
+                    <td>{{symbol[i]['amount_of_shares']}}</td>
+                    <td>{{symbol[i]['day']}}</td>
+                    <td>{{symbol[i]['time']}}</td>
+                </tr>
+                {%endfor%}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
