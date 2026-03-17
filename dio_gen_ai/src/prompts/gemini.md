@@ -1,0 +1,10 @@
+## 🧠 Prompts
+
+
+Gemini：
+
+| Action | Prompt |
+| :------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Podcast Title | Act like a podcast scriptwriter. We're going to create a new technology podcast, audio only, focused on explaining data structures (things like lists, arrays, queue, stack, trees, tries and so on). I need your help to think about the title of the podcast. I want this name to be a pun with the topics we're discussing. <br><br> Some rules: <br> 1. I want a maximum of 3 words in the title <br> 2. Make some pun with the concepts the podcast is about, so data structures.|
+| Podcast Script | Now, keep acting like a podcast scriptwriter. We're going to write the first episode of our podcast. Since our name is a pun with the concept of a list, I think making our first episode about the list data structure seems fitting. I want you to follow this structure: <br><br> * Introduction. Here we'll introduce the new podcast, the host (name: Valter), and give a brief description of what overall topics we're about; <br> * Explain the concept of a list without using any programming language. Try to be didactic, so anyone can understand; <br> * Briefly explain how the list works in memory and compare them to variables to make it easier to understand; <br> * Finish with a farewell and a phrase of impact that is a pun, something like "happy listing". <br><br> Some rules for the script: <br> 1. I want to podcast to be maximum 5 minutes long, so don't write something long. <br> 2. The host of this podcast is one person called Valter. <br> 3. Try to not use technical concepts in the explanation of the list. On the explanation about memory it's fine to use technical concepts.|
+| Podcast Cover | At last, I need an image to be the cover of the podcast. I want you to generate a pixel art with 1:1 aspect ratio. The image should blend in aspects of data structures|
