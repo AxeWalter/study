@@ -138,5 +138,5 @@ if __name__ == '__main__':
     df_final = full_cost_brl_and_loss(df_usd_price, exchange_rates)
 
     df_aggregated = aggregate_by_product(df_final)
+    plot_top10_loss(df_aggregated)
     plot_all_loss_by_product(df_aggregated)
-    #plot_top10_loss(df_aggregated)
