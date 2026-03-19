@@ -19,6 +19,7 @@ def basic_stats(df):
 
     print(f"""
     Visão Geral do Dataset
+    
     Total de Linhas: {total_lines}
     Total de Linhas em Branco: {blank_lines}
     Total de Colunas: {total_cols}
@@ -34,6 +35,7 @@ def total_stats(df):
 
     print(f"""
     Análise de Valores Numéricos
+    
     Valor Mínimo: R$ {min_val:,.2f}
     Valor Máximo: R$ {max_val:,.2f}
     Valor Médio: R$ {mean:,.2f}
